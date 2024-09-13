@@ -6,7 +6,9 @@ Then, enable remote access in Transmission <br>
 
 Then run these commands (replacing paths with your own):
 
-`chmod +x /Users/gyryk/Documents/Projects/AutoDownloader/main.py` which makes the script executable and `chmod +r /Users/gyryk/Documents/Projects/AutoDownloader/main.py` which makes it readable.
+`chmod +x /Users/gyryk/Documents/Projects/AutoDownloader/main.py` which makes the script executable and `chmod +r /Users/gyryk/Documents/Projects/AutoDownloader/main.py` which makes it readable. <br>
+Then `chmod +x /Users/gyryk/Documents/Projects/AutoDownloader/shows.json` and `chmod +r /Users/gyryk/Documents/Projects/AutoDownloader/shows.json` to do the same for the json file <br>
+
 
 
 ## Then run `crontab -e` which opens the processes scheduled in vim. Add your choice of scheduling code there: <br>
