@@ -10,7 +10,7 @@ links = []
 
 def fetch_magnet_link(show_name, season, episode):
     driver = webdriver.Safari()
-    search_url = f"https://thepiratebay.org/search.php?q={show_name}+s{season}e{episode}&video=on&search=Pirate+Search&page=0&orderby="
+    search_url = f"https://notapiracywebsite.org/search.php?q={show_name}+s{season}e{episode}&video=on&search=Pirate+Search&page=0&orderby="
     
     # Open the search page
     driver.get(search_url)
