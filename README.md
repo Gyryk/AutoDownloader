@@ -17,4 +17,4 @@ This makes the script run every midnight. Ideal if you have a lot of shows with 
 
 
 ```12 0 * * 5 /usr/bin/python3 /Users/gyryk/Documents/Projects/AutoDownloader/main.py >> /Users/gyryk/Documents/Projects/AutoDownloader/auto_downloader.log 2>&1``` <br>
-Ideal if you do not have a lot of shows to fetch or have really fast internet.
+This makes the script run at noon every Friday. Ideal if you do not have a lot of shows to fetch or have really fast internet.
