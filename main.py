@@ -17,7 +17,7 @@ json_file_path = os.path.join(script_dir, 'shows.json')
 def fetch_magnet_link(show_name, season, episode):
     # Set up Chrome options for headless mode
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run in headless mode
+    chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
