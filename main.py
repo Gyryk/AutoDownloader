@@ -23,7 +23,7 @@ def fetch_magnet_link(show_name, season, episode):
 
     # Initialize the Chrome WebDriver with headless options
     driver = webdriver.Chrome(options=chrome_options)
-    search_url = f"https://thepiratebay.org/search.php?q={show_name}+s{season}e{episode}&video=on&search=Pirate+Search&page=0&orderby="
+    search_url = f"https://notapiracywebsite.org/search.php?q={show_name}+s{season}e{episode}&video=on&search=Pirate+Search&page=0&orderby="
     
     # Open the search page
     driver.get(search_url)
