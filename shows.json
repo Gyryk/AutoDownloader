@@ -1,0 +1,12 @@
+{
+    "Example Show 1": {
+        "season": 1,
+        "episode": 2,
+        "seasonLength": 8
+    },
+    "Example Show 2": {
+        "season": 2,
+        "episode": 1,
+        "seasonLength": 24
+    }
+}
